@@ -2,9 +2,6 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-li {
-  padding: 0 2%;
-}
 .info {
   display: flex;
   justify-content: space-between;
@@ -13,9 +10,14 @@ li {
 .start {
   display: flex;
 }
-
+.start li {
+  padding: 0 2%;
+}
 .end {
   display: flex;
+}
+.end li {
+  padding: 0 2%;
 }
 .links {
   display: flex;
@@ -23,4 +25,31 @@ li {
 }
 .links ul {
   display: flex;
+}
+.links li {
+  padding: 0 2%;
+}
+.banner {
+  height: 400px;
+  width: 100%;
+}
+.banner ul {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100%;
+}
+.banner ul li {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 40%;
+  height: 47%;
+}
+.banner ul li:first-child {
+  width: 60%;
+  height: 100%;
 }
