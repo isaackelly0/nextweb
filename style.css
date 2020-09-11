@@ -35,10 +35,8 @@ ul {
 }
 .banner ul {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   flex-direction: column;
-  /* align-items: stretch; */
   flex-wrap: wrap;
   align-items: flex-start;
   height: 100%;
@@ -49,9 +47,22 @@ ul {
   border-width: 2px;
   width: 25%;
   height: 45%;
-  /* margin: 0.05%; */
 }
 .banner ul li:first-child {
   width: 70%;
   height: 95%;
+}
+section {
+  padding: 0 17%;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxes li {
+  padding: 10px;
+}
+.boxes li img {
+  height: 150px;
+  width: 275px;
 }
