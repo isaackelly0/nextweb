@@ -62,7 +62,58 @@ section {
 .boxes li {
   padding: 10px;
 }
-.boxes li img {
+.news li img {
   height: 150px;
   width: 275px;
+}
+.lately li {
+  width: 275px;
+}
+.lately li * {
+  padding: 0 5px;
+}
+.late {
+  display: flex;
+  height: 100px;
+  background-color: orange;
+}
+.late img {
+  height: 60px;
+  width: 60px;
+  align-self: center;
+}
+.deets {
+  display: flex;
+  align-items: center;
+}
+.deets img {
+  height: 20px;
+  width: 20px;
+}
+.diff li {
+  width: 380px;
+}
+.q {
+  height: 300px;
+  width: 100%;
+  background: url("../nyt/images/coffee_rain.gif");
+  display: flex;
+}
+.q p {
+  color: white;
+  align-self: flex-end;
+}
+.sub {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sub img {
+  height: 75px;
+  width: 75px;
+  float: right;
+}
+.diff li ul {
+  list-style: initial;
+  padding-left: 25px;
 }
