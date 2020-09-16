@@ -62,6 +62,22 @@ h2 {
 section {
   padding: 0 17%;
 }
+@media only screen and (max-width: 1803px) {
+  section {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  section {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 1327px) {
+  section {
+    padding: 0;
+  }
+}
+/* 1195 */
 /* .boxes,
 .lately,
 .diff  */
@@ -140,3 +156,16 @@ section {
   height: 200px;
   width: 275px;
 } */
+.apps {
+  background-color: #131313;
+  color: white;
+}
+.apps ul {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  background: #000;
+  color: white;
+  text-align: center;
+}
