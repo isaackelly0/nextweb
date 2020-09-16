@@ -62,7 +62,7 @@ h2 {
 section {
   padding: 0 17%;
 }
-@media only screen and (max-width: 1803px) {
+/* @media only screen and (max-width: 1803px) {
   section {
     padding: 0 10%;
   }
@@ -76,7 +76,7 @@ section {
   section {
     padding: 0;
   }
-}
+} */
 /* 1195 */
 /* .boxes,
 .lately,
