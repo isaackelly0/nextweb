@@ -1,7 +1,28 @@
-@media only screen and (max-width: 1803px) {
+/* @media only screen and (max-width: 1803px) {
   section {
     padding: 0% 0%;
   }
-}
+} */
 /* 1357 */
 /* 1803 */
+@media only screen and (max-width: 1803px) {
+  section {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 1490px) {
+  section {
+    padding: 0 5%;
+  }
+}
+@media only screen and (max-width: 1327px) {
+  section {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 745px) {
+  /* eliminate last items from nav */
+}
+@media only screen and (max-width: 620px) {
+  /* mobile design */
+}

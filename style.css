@@ -62,21 +62,6 @@ h2 {
 section {
   padding: 0 17%;
 }
-/* @media only screen and (max-width: 1803px) {
-  section {
-    padding: 0 10%;
-  }
-}
-@media only screen and (max-width: 1490px) {
-  section {
-    padding: 0 5%;
-  }
-}
-@media only screen and (max-width: 1327px) {
-  section {
-    padding: 0;
-  }
-} */
 /* 1195 */
 /* .boxes,
 .lately,
@@ -156,16 +141,32 @@ section {
   height: 200px;
   width: 275px;
 } */
+footer {
+  margin: 0;
+}
 .apps {
   background-color: #131313;
   color: white;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 .apps ul {
   display: flex;
   justify-content: center;
 }
+.apps ul li {
+  padding: 0 5px;
+}
 .copyright {
   background: #000;
   color: white;
   text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
