@@ -58,6 +58,9 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 .banner ul li:first-child {
   width: 70%;
@@ -150,21 +153,29 @@ section {
 } */
 footer {
   margin: 0;
+  padding-top: 25px;
 }
 .apps {
   background-color: #131313;
   color: white;
   height: 100px;
   width: 100%;
-  padding: 0;
+  padding: 15px 0;
   margin: 0;
 }
 .apps ul {
   display: flex;
   justify-content: center;
 }
+.apps ul:first-child {
+  /* padding-top: 50px; */
+}
 .apps ul li {
   padding: 0 5px;
+}
+.apps ul li img {
+  height: 30px;
+  width: 30px;
 }
 .copyright {
   background: #000;
