@@ -54,6 +54,10 @@ h2 {
   border-width: 2px;
   width: 25%;
   height: 45%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .banner ul li:first-child {
   width: 70%;
@@ -79,6 +83,9 @@ section {
 .boxes li img {
   height: 150px;
   width: 275px;
+}
+.under li {
+  margin: -30px 0;
 }
 .lately li {
   width: 275px;
