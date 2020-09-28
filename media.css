@@ -12,9 +12,57 @@
   section {
     padding: 0;
   }
+  .links ul li:last-child,
+  .links ul li:nth-child(6),
+  .lately li:last-child {
+    visibility: hidden;
+  }
 }
 @media only screen and (max-width: 745px) {
   /* eliminate last items from nav */
+  nav {
+    visibility: hidden;
+  }
+  .banner {
+    height: 500px;
+    width: 100%;
+  }
+  .banner ul {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .banner ul li:first-child {
+    height: 30%;
+    width: 100%;
+  }
+  .banner ul li {
+    width: 100%;
+    height: 30%;
+  }
+  .pop {
+    display: inline-flex;
+  }
+  .pop li {
+    width: 100%;
+  }
+  .boxes li {
+    display: flex;
+  }
+  .boxes li img {
+    height: 60px;
+    width: 60px;
+    padding-right: 10px;
+  }
+  .under {
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+  }
+  .under li {
+    margin: -20px 0;
+  }
 }
 @media only screen and (max-width: 620px) {
   /* mobile design */
