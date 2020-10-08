@@ -129,6 +129,9 @@ section {
 .q p {
   color: white;
   align-self: flex-end;
+  font-family: "Teko";
+  font-style: italic;
+  font-size: 45px;
 }
 .sub {
   display: flex;
